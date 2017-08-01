@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @EnableAutoConfiguration
 public class SampleController {
 
-	@RequestMapping("/test")
+	@RequestMapping("/sample")
 	@ResponseBody
 	String home() {
 		return "Hello World!";
